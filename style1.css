@@ -1,0 +1,54 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    padding:20px;
+    height: 100vh;    
+    background: rgba(251,114,227,0.3);
+    background: -moz-linear-gradient(90deg, rgba(251,114,227,0.5) 11%, rgba(82,155,241,0.5) 76%);
+    background: -webkit-linear-gradient(90deg, rgba(251,114,227,0.5) 11%, rgba(82,155,241,0.5) 76%);
+    background: linear-gradient(90deg, rgba(251,114,227,0.5) 11%, rgba(82,155,241,0.5) 76%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb72e3",endColorstr="#529bf1",GradientType=1);
+    backdrop-filter: blur(1px);
+}
+.heading{
+    text-align:center;
+   
+    font-family: 'Shantell Sans', cursive;
+
+}
+.inner-div{
+    height: 80vh;
+    border: 2px solid azure;
+    background: rgba(105, 232, 228, 0.522); 
+    backdrop-filter: blur(18px);
+    /* margin: 100px; */
+    border-radius: 18px;
+    margin-inline: 300px;
+    padding: 30px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    font-family: 'Mukta', sans-serif;
+}
+input{
+    border-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    height: 30px;
+    width: 100%;
+}
+
+label{
+    margin-block: 5px;
+    color: rgb(255, 255, 255);
+    color: black;
+}
+.feedback{
+    height: 130px;
+}
